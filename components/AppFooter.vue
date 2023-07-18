@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="fixed bottom-0 left-0 z-20 w-full p-4 lg:border-t shadow lg:flex lg:items-center lg:justify-between lg:p-6 bg-black lg:border-gray-600"
+    class="fixed bottom-0 left-0 z-20 w-full max-w-screen-2xl lg:relative lg:border-t shadow lg:shadow-none lg:flex lg:items-center lg:justify-between p-4 sm:p-6 lg:p-8 bg-gray-300 dark:bg-transparent bg-opacity-80 lg:bg-opacity-100 backdrop-blur-sm lg:backdrop-blur-none mx-auto lg:mt-auto"
   >
     <NuxtLink class="hidden lg:block" to="/">
       <span class="sr-only">logo</span>
@@ -12,10 +12,10 @@
       <a href="https://flowbite.com/" class="hover:underline">DELTA OFFICIAL</a
       >. All Rights Reserved.
     </span>
-    <div class="flex flex-row gap-x-4 lg:hidden">
+    <div class="flex flex-row gap-x-4 sm:gap-x-6 lg:gap-x-8 lg:hidden">
       <div class="basis-6/12">
         <a
-          class="rounded-lg text-sm font-semibold p-4 bg-indigo-700 text-white hover:bg-indigo-500 my-4 block text-center"
+          class="rounded-lg text-sm font-semibold p-4 bg-indigo-700 text-white hover:bg-indigo-500 block text-center"
           href="https://wallet.deltabet.online/login"
         >
           <span>
@@ -28,7 +28,7 @@
       </div>
       <div class="basis-6/12">
         <a
-          class="rounded-lg text-sm font-semibold p-4 bg-rose-700 text-white hover:bg-rose-500 my-4 block text-center"
+          class="rounded-lg text-sm font-semibold p-4 bg-rose-700 text-white hover:bg-rose-500 block text-center"
           href="https://wallet.deltabet.online/register"
         >
           <span>

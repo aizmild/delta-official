@@ -2,25 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.2s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(0.5rem);
-}
+@layer base {
+  body {
+    @apply bg-gray-300 dark:bg-black text-gray-900 dark:text-white inset-0;
+  }
 
-body {
-  background-color: rgba(0, 0, 0, 1);
-  color: white;
-  overflow: hidden;
-}
+  main {
+    @apply min-h-screen flex flex-col pt-28;
+  }
 
-article {
-  height: 100vh;
-  max-height: 100vh;
-  padding-top: 120px;
-  overflow: auto;
+  article {
+    @apply bg-gray-100 dark:bg-black pt-4 sm:pt-6 pb-24 sm:pb-28 lg:py-8;
+  }
 }

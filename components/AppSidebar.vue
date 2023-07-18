@@ -2,7 +2,7 @@
   <aside>
     <div
       id="drawer-right-example"
-      class="fixed top-0 right-0 z-50 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-black w-80"
+      class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-black w-80"
       tabindex="-1"
       aria-labelledby="drawer-right-label"
     >
@@ -31,14 +31,6 @@
       </button>
 
       <div class="text-sm sm:text-base lg:text-lg font-normal text-white mt-8">
-        <NuxtLink class="block mb-4 sm:mb-6 lg:mb-8" to="/">
-          <span class="sr-only">logo</span>
-          <img
-            class="w-32 sm:w-40 mx-auto"
-            src="assets/img/logo.png"
-            alt="logo"
-          />
-        </NuxtLink>
         <NuxtLink
           class="block w-full hover:bg-slate-900 hover:cursor-pointer rounded-xl p-4 sm:p-6"
           to="/"
